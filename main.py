@@ -1,7 +1,8 @@
 import random
 import os
-from hangman_words import word_list
-from hangman_art import logo, stages
+from words import word_list
+from art import logo, stages
+
 
 invalid = [
     "!", "@", "#", "$", "%", "^", "&", "*", "(", ")", "-", "+", "=", 
@@ -9,6 +10,7 @@ invalid = [
     "/", "?", "`", "~", "_",
     "0", "1", "2", "3", "4", "5", "6", "7", "8", "9"
 ]
+
 
 while True:
 
