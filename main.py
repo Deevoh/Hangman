@@ -95,21 +95,21 @@ while True:
                     os.system('cls' if os.name == 'nt' else 'clear')
                     break
                 elif play_again == "n":
-                    print("Thank you for playing!")
+                    print("\nThank you for playing!\n")
                     exit()
                 else:
-                    print("Invalid input.")
+                    print("Invalid input. 'y' or 'n' only.\n")
             break
         if end_game_lose:
-            print(f"You lose!\nThe word was {chosen_word}")
+            print(f"You lose!\nThe word was: {chosen_word}\n")
             while True:
                 play_again = input("Do you want to play again? (y/n): ").lower()
                 if play_again == "y":
                     os.system('cls' if os.name == 'nt' else 'clear')
                     break
                 elif play_again == "n":
-                    print("Thank you for playing!")
+                    print("\nThank you for playing!\n")
                     exit()
                 else:
-                    print("Invalid input.")
+                    print("Invalid input. 'y' or 'n' only.\n")
             break
